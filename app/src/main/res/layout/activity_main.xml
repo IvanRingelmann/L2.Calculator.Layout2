@@ -5,115 +5,179 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:padding="10dp"
     android:columnCount="4"
     android:orientation="horizontal"
+    android:padding="10dp"
     tools:context=".MainActivity">
 
-    <EditText
+    <TextView
+        android:id="@+id/result_number_view"
+        android:layout_width="373dp"
         android:layout_height="match_parent"
-        android:layout_width="match_parent"
         android:layout_columnSpan="4"
-        android:hint="0"
-        android:textAlignment="center"
-        android:textSize="30sp" />
+        android:hint="null"
+        android:textAlignment="textEnd"
+        android:textSize="60sp" />
 
     <Button
-        android:layout_margin="3dp"
+        android:id="@+id/button_number_seven"
+        android:layout_width="wrap_content"
         android:layout_height="60dp"
-        android:layout_width="wrap_content"
-        android:text="7"/>
+        android:layout_margin="3dp"
+        android:backgroundTint="#CC3300"
+        android:text="7" />
 
     <Button
-        android:layout_margin="3dp"
+        android:id="@+id/button_number_eight"
+        android:layout_width="wrap_content"
         android:layout_height="60dp"
-        android:layout_width="wrap_content"
-        android:text="8"/>
+        android:layout_margin="3dp"
+        android:backgroundTint="#CC3300"
+        android:text="8" />
 
     <Button
-        android:layout_margin="3dp"
+        android:id="@+id/button_number_nine"
+        android:layout_width="wrap_content"
         android:layout_height="60dp"
-        android:layout_width="wrap_content"
-        android:text="9"/>
+        android:layout_margin="3dp"
+        android:backgroundTint="#CC3300"
+        android:text="9" />
 
     <Button
-        android:layout_margin="3dp"
+        android:id="@+id/button_action_split"
         android:layout_width="wrap_content"
-        android:text="/"/>
+        android:layout_margin="3dp"
+        android:backgroundTint="#006600"
+        android:text="/" />
 
     <Button
-        android:layout_margin="3dp"
+        android:id="@+id/button_number_four"
+        android:layout_width="wrap_content"
         android:layout_height="60dp"
-        android:layout_width="wrap_content"
-        android:text="4"/>
+        android:layout_margin="3dp"
+        android:backgroundTint="#CC3300"
+        android:text="4" />
 
     <Button
-        android:layout_margin="3dp"
+        android:id="@+id/button_number_five"
+        android:layout_width="wrap_content"
         android:layout_height="60dp"
-        android:layout_width="wrap_content"
-        android:text="5"/>
+        android:layout_margin="3dp"
+        android:backgroundTint="#CC3300"
+        android:text="5" />
 
     <Button
-        android:layout_margin="3dp"
+        android:id="@+id/button_number_six"
+        android:layout_width="wrap_content"
         android:layout_height="60dp"
-        android:layout_width="wrap_content"
-        android:text="6"/>
+        android:layout_margin="3dp"
+        android:backgroundTint="#CC3300"
+        android:text="6" />
 
     <Button
-        android:layout_margin="3dp"
+        android:id="@+id/button_action_multiply"
         android:layout_width="wrap_content"
-        android:text="x"/>
+        android:layout_margin="3dp"
+        android:backgroundTint="#006600"
+        android:text="x" />
 
     <Button
-        android:layout_margin="3dp"
+        android:id="@+id/button_number_one"
+        android:layout_width="wrap_content"
         android:layout_height="60dp"
-        android:layout_width="wrap_content"
-        android:text="1"/>
+        android:layout_margin="3dp"
+        android:backgroundTint="#CC3300"
+        android:text="1" />
 
     <Button
-        android:layout_margin="3dp"
+        android:id="@+id/button_number_two"
+        android:layout_width="wrap_content"
         android:layout_height="60dp"
-        android:layout_width="wrap_content"
-        android:text="2"/>
-    <Button
         android:layout_margin="3dp"
+        android:backgroundTint="#CC3300"
+        android:text="2" />
+
+    <Button
+        android:id="@+id/button_number_three"
+        android:layout_width="wrap_content"
         android:layout_height="60dp"
-        android:layout_width="wrap_content"
-        android:text="3"/>
+        android:layout_margin="3dp"
+        android:backgroundTint="#CC3300"
+        android:text="3" />
 
     <Button
-        android:layout_margin="3dp"
+        android:id="@+id/button_action_minus"
         android:layout_width="wrap_content"
-        android:text="-"/>
+        android:layout_margin="3dp"
+        android:backgroundTint="#006600"
+        android:text="-" />
 
     <Button
-        android:layout_margin="3dp"
+        android:id="@+id/button_number_null"
+        android:layout_width="wrap_content"
         android:layout_height="60dp"
-        android:layout_width="wrap_content"
-        android:text="0"/>
-    <Button
         android:layout_margin="3dp"
+        android:backgroundTint="#CC3300"
+        android:text="0" />
+
+    <Button
+        android:id="@+id/button_number_triple_null"
+        android:layout_width="wrap_content"
         android:layout_height="60dp"
-        android:layout_width="wrap_content"
-        android:text="."/>
+        android:layout_margin="3dp"
+        android:backgroundTint="#CC3300"
+        android:text="000" />
 
     <Button
-        android:layout_margin="3dp"
+        android:id="@+id/button_number_dot"
         android:layout_width="wrap_content"
-        android:text="AC"/>
+        android:layout_height="60dp"
+        android:layout_margin="3dp"
+        android:backgroundTint="#CC3300"
+        android:text="." />
 
     <Button
-        android:layout_margin="3dp"
+        android:id="@+id/button_action_plus"
         android:layout_width="wrap_content"
-        android:text="+"/>
+        android:layout_margin="3dp"
+        android:backgroundTint="#006600"
+        android:text="+" />
 
     <Button
-        android:layout_margin="3dp"
+        android:id="@+id/button_action_percent"
         android:layout_width="wrap_content"
-        android:layout_columnSpan="3"
+        android:layout_margin="3dp"
+        android:backgroundTint="#006600"
+        android:text="%" />
+
+    <Button
+        android:id="@+id/button_action_delete"
+        android:layout_width="wrap_content"
+        android:layout_columnSpan="2"
         android:layout_gravity="fill_horizontal"
-        android:text="="/>
+        android:layout_margin="3dp"
+        android:backgroundTint="#006600"
+        android:text="AC" />
 
+    <Button
+        android:id="@+id/button_action_result"
+        android:layout_width="wrap_content"
+        android:layout_margin="3dp"
+        android:backgroundTint="#003300"
+        android:text="=" />
 
+    <Button
+        android:id="@+id/button_action_show_last_activity"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_columnSpan="4"
+        android:layout_gravity="fill_horizontal"
+        android:layout_margin="3dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="10dp"
+        android:backgroundTint="#660066"
+        android:text="SHOW LAST SCREEN" />
 
 </GridLayout>
+
